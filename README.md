@@ -1,4 +1,4 @@
-# korean-hate-speech
+# Korean HateSpeech Dataset
 
 
 ## License
