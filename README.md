@@ -10,7 +10,7 @@ The dataset consists of 3 parts: 1) `labeled` 2) `unlabeled` and 3) `news_title`
 #### 1. `labeled`
 There are **9,381** human-labeled comments in total. They are splitted into 7,896 training set, 471 validation set, and 974 test set. (We left test set labels undisclosed for the fair comparison of prediction models. One can be evaluated via the Kaggle submission which will be described later in this document.) Each comment is annotated on two aspects, the existence of **social bias** and **hate speech**, given that hate speech is closely related to bias. <br>
 
-For social bias, we present `gender bias`, `other biases`, and `none` labels. Considering the context of Korean entertainment news where public figures encounter stereotypes mostly intertwined with *gender*, we weigh more on the prevalent bias. 
+For social bias, we present `gender`, `others`, and `none` bias labels. Considering the context of Korean entertainment news where public figures encounter stereotypes mostly intertwined with *gender*, we weigh more on the prevalent bias. 
 We also added binary label `whether a comment contains gender bias or not`. 
 For hate speech, we introduce `hate`, `offensive`, and `none` labels. 
 ```
@@ -25,24 +25,9 @@ Detailed definitions are described in `guideline`.
 #### 2. `unlabeled`
 
 
-#### 3. `news_comments`
 
 
-#### 4. `guideline`
-
-[Guideline (`ko`)](https://www.notion.so/c1ecb7cc52d446cc93d928d172ef8442) is publicly available. 
-
-
-
-
-
-## Data Statistics
-
-#### 1. `labeled`
-
-Total: 9,381
-
-#### 2. `unlabeled`
+#### 3. `news_title`
 
 
 
@@ -53,8 +38,16 @@ https://github.com/inmoonlight/koco
 ## Kaggle competition
 
 www.kaggle.com/c/koreangenderbiasdetection
+
 www.kaggle.com/c/koreanbiasdetection
+
 www.kaggle.com/c/koreanhatespeech
+
+
+## Annotation Guideline
+
+[Guideline (`ko`)](https://www.notion.so/c1ecb7cc52d446cc93d928d172ef8442) is publicly available. 
+
 
 ## Contributors
 
