@@ -58,7 +58,8 @@ Feel free to participate :tada:
 
 ## Annotation Guideline
 
-[Guideline (`ko`)](https://www.notion.so/c1ecb7cc52d446cc93d928d172ef8442) is publicly available. 
+- [Guideline (`ko`)](https://www.notion.so/c1ecb7cc52d446cc93d928d172ef8442)
+- [Guideline (`en`)](guideline/annotation_guideline_en.md)
 
 
 ## Contributors
