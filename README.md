@@ -3,21 +3,16 @@
 We provide the first human-annotated Korean corpus for toxic speech detection and the large unlabeled corpus. <br>
 The data is comments from the Korean entertainment news aggregation platform. 
 
-
-
-## Data description
+## Dataset description
 
 The dataset consists of 3 parts: 1) `labeled` 2) `unlabeled` and 3) `news_title`.
 
 #### 1. `labeled`
-There are **9.4K** human-labeled comments. 
-Each comment is annotated on two aspects, the existence of **social bias** and **hate speech**, given that hate speech is closely related to bias. <br>
+There are **9,381** human-labeled comments in total. They are splitted into 7,896 training set, 471 validation set, and 974 test set. (We left test set labels undisclosed for the fair comparison of prediction models. One can be evaluated via the Kaggle submission which will be described later in this document.) Each comment is annotated on two aspects, the existence of **social bias** and **hate speech**, given that hate speech is closely related to bias. <br>
 
-For social bias, we present `gender bias`, `other biases`, and `none` labels. 
-Considering the context of Korean entertainment news where public figures encounter stereotypes mostly intertwined with *gender*, we weigh more on the prevalent bias. <br>
-We also added binary label `whether a comment contains gender bias or not`. <br>
+For social bias, we present `gender bias`, `other biases`, and `none` labels. Considering the context of Korean entertainment news where public figures encounter stereotypes mostly intertwined with *gender*, we weigh more on the prevalent bias. 
+We also added binary label `whether a comment contains gender bias or not`. 
 For hate speech, we introduce `hate`, `offensive`, and `none` labels. 
-
 ```
 comments	contain_gender_bias	bias	hate
 송중기 시대극은 믿고본다. 첫회 신선하고 좋았다.	False	none	none
@@ -43,7 +38,12 @@ Detailed definitions are described in `guideline`.
 
 ## Data Statistics
 
+#### 1. `labeled`
+
 Total: 9,381
+
+#### 2. `unlabeled`
+
 
 
 ## Usage
