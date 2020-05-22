@@ -29,7 +29,8 @@ This unlabeled dataset can be used in various ways: pretraining language model, 
 
 #### 3. `news_title`
 
-We release 
+We release news titles for each comments. To fully understand meaning of the comments, context is must be required. <br>
+For the entertainment news, both title and contents can be used for the context. However, we only provide the news articles' title, due to the legal issue.
 
 
 ## Usage
