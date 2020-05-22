@@ -31,11 +31,21 @@ This unlabeled dataset can be used in various ways: pretraining language model, 
 
 
 
+
 ## Usage
 
-`koco`
+[`koco`](https://github.com/inmoonlight/koco) is a library to easily access `kocohub` datasets.
 
-https://github.com/inmoonlight/koco
+For `korean-hate-speech`, we can load datasets by using this code:
+```python
+import koco
+
+train_dev = koco.load_dataset('korean-hate-speech', mode='train_dev')
+unlabeled = koco.load_dataset('korean-hate-speech', mode='unlabeled')
+test = koco.load_dataset('korean-hate-speech', mode='test')
+```
+
+
 
 ## Kaggle competition
 
