@@ -3,8 +3,7 @@
 We provide the first human-annotated Korean corpus for toxic speech detection and the large unlabeled corpus. <br>
 The data is comments from the Korean entertainment news aggregation platform. 
 
-Note that this project is an independent research and was not supported by any of the organizations. <br>
-Instead, we had an individual sponsor [@lovit](https://github.com/lovit) and we sincerely thank [@lovit](https://github.com/lovit) for providing financial support :heart:
+
 
 ## Data description
 
@@ -56,6 +55,18 @@ https://github.com/inmoonlight/koco
 www.kaggle.com/c/koreangenderbiasdetection
 www.kaggle.com/c/koreanbiasdetection
 www.kaggle.com/c/koreanhatespeech
+
+## Contributors
+
+The main contributors of the work are: 
+- [Jihyung Moon](https://github.com/inmoonlight)\*
+- [Won Ik Cho](https://github.com/warnikchow)\*
+- [Junbum Lee](https://github.com/beomi)
+
+\*: Equal Contribution
+
+Note that this project is an independent research and was not supported by any of the organizations. <br>
+Instead, we had an individual sponsor [Hyunjoong Kim](https://github.com/lovit) and we sincerely thank [Hyunjoong Kim](https://github.com/lovit) for providing financial support :heart:
 
 ## References
 
