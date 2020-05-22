@@ -24,14 +24,16 @@ Detailed definitions are described in `guideline`.
 
 #### 2. `unlabeled`
 
-
-
+We additionally provide 2,034,837 `unlabeled` comments since `labeled` data is limited. <br>
+This unlabeled dataset can be used in various ways: pretraining language model, semi-supervised learning, and so on.
 
 #### 3. `news_title`
 
 
 
 ## Usage
+
+`koco`
 
 https://github.com/inmoonlight/koco
 
