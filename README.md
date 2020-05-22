@@ -24,12 +24,12 @@ Detailed definitions are described in `guideline`.
 
 #### 2. `unlabeled`
 
-We additionally provide 2,034,837 `unlabeled` comments since `labeled` data is limited. <br>
+We additionally provide **2,034,837** `unlabeled` comments since `labeled` data is limited. <br>
 This unlabeled dataset can be used in various ways: pretraining language model, semi-supervised learning, and so on.
 
 #### 3. `news_title`
 
-
+We release 
 
 
 ## Usage
@@ -46,15 +46,14 @@ test = koco.load_dataset('korean-hate-speech', mode='test')
 ```
 
 
-
 ## Kaggle competition
 
-www.kaggle.com/c/koreangenderbiasdetection
+We open Kaggle competition to provide leaderboard system easily. There are 3 competitions:
+1. Gender-bias detection: www.kaggle.com/c/koreangenderbiasdetection
+1. Bias detection: www.kaggle.com/c/koreanbiasdetection
+1. Hate speech detection: www.kaggle.com/c/koreanhatespeech
 
-www.kaggle.com/c/koreanbiasdetection
-
-www.kaggle.com/c/koreanhatespeech
-
+Feel free to participate :tada:
 
 ## Annotation Guideline
 
