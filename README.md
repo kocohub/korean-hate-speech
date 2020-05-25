@@ -50,9 +50,9 @@ test = koco.load_dataset('korean-hate-speech', mode='test')
 ## Kaggle competition
 
 We open Kaggle competition to provide leaderboard system easily. There are 3 competitions:
-1. Gender-bias detection: www.kaggle.com/c/koreangenderbiasdetection
-1. Bias detection: www.kaggle.com/c/koreanbiasdetection
-1. Hate speech detection: www.kaggle.com/c/koreanhatespeech
+1. Gender-bias detection: www.kaggle.com/c/korean-gender-bias-detection
+1. Bias detection: www.kaggle.com/c/korean-bias-detection
+1. Hate speech detection: www.kaggle.com/c/korean-hate-speech-detection
 
 Feel free to participate :tada:
 
