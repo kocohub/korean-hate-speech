@@ -78,7 +78,12 @@ Instead, we had an individual sponsor [Hyunjoong Kim](https://github.com/lovit) 
 
 If you find this dataset useful, feel free to cite our publication [BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection]():
 ```
-TBD
+@inproceedings{moon2020beep,
+  title={BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection},
+  author={Moon, Jihyung and Cho, Won Ik and Lee, Junbum},
+  booktitle={Proceedings of the Eighth International Workshop on Natural Language Processing for Social Media},
+  year={2020}
+}
 ```
 
 ## License
