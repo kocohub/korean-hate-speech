@@ -39,11 +39,33 @@ For the entertainment news, both title and contents can be used for the context.
 
 For `korean-hate-speech`, we can load datasets by using this code:
 ```python
-import koco
+>>> import koco
 
-train_dev = koco.load_dataset('korean-hate-speech', mode='train_dev')
-unlabeled = koco.load_dataset('korean-hate-speech', mode='unlabeled')
-test = koco.load_dataset('korean-hate-speech', mode='test')
+>>> train_dev = koco.load_dataset('korean-hate-speech', mode='train_dev')
+>>> type(train_dev)
+dict
+>>> train_dev.keys()
+dict_keys(['train', 'dev'])
+>>> train_dev['train'][33]
+{'comments': '2,30대 골빈여자들은 이 기사에 다 모이는건가ㅋㅋㅋㅋ 이래서 여자는 투표권 주면 안된다. 엠넷사전투표나 하고 살아야지 계집들은',
+ 'contain_gender_bias': True,
+ 'bias': 'gender',
+ 'hate': 'hate',
+ 'news_title': '"“8년째 연애 중”…‘인생술집’ 블락비 유권♥전선혜, 4살차 연상연하 커플"'}
+
+>>> unlabeled = koco.load_dataset('korean-hate-speech', mode='unlabeled')
+>>> type(unlabeled)
+list
+>>> unlabeled[33]
+{'comments': '이주연님 되게 이쁘시다 오빠 오래가요 잘어울려 주연님 울오빠 잘부탁해요',
+ 'news_title': '"[단독] 지드래곤♥이주연, 제주도 데이트…2018년 1호 커플 탄생"'}
+
+>>> test = koco.load_dataset('korean-hate-speech', mode='test')
+>>> type(test)
+list
+>>> test[33]
+{'comments': '끝낼때도 됐지 요즘같은 분위기엔 성드립 잘못쳤다가 난리. 그동안 잘봤습니다',
+'news_title': '[단독] ‘SNL 코리아’ 공식적인 폐지 확정…아름다운 종료'}
 ```
 
 
