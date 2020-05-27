@@ -76,7 +76,7 @@ Instead, we had an individual sponsor [Hyunjoong Kim](https://github.com/lovit) 
 
 ## References
 
-If you find this dataset useful, feel free to cite our publication [BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection]():
+If you find this dataset useful, feel free to cite our publication [BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection](https://arxiv.org/abs/2005.12503) which is accepted in [SocialNLP@ACL 2020](https://sites.google.com/site/socialnlp2020):
 ```
 @inproceedings{moon2020beep,
   title={BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection},
