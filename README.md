@@ -8,7 +8,7 @@ The data is comments from the Korean entertainment news aggregation platform.
 The dataset consists of 3 parts: 1) `labeled` 2) `unlabeled` and 3) `news_title`.
 
 #### 1. `labeled`
-There are **9,381** human-labeled comments in total. They are splitted into 7,896 training set, 471 validation set, and 974 test set. (We left test set labels undisclosed for the fair comparison of prediction models. One can be evaluated via the Kaggle submission which will be described later in this document.) Each comment is annotated on two aspects, the existence of **social bias** and **hate speech**, given that hate speech is closely related to bias. <br>
+There are **9,381** human-labeled comments in total. They are splitted into 7,896 training set, 471 validation set, and 974 test set. (We left test set labels undisclosed for the fair comparison of prediction models. The model can be evaluated via the Kaggle submission which will be described later in this document.) Each comment is annotated on two aspects, the existence of **social bias** and **hate speech**, given that hate speech is closely related to bias. <br>
 
 For social bias, we present `gender`, `others`, and `none` bias labels. Considering the context of Korean entertainment news where public figures encounter stereotypes mostly intertwined with *gender*, we weigh more on the prevalent bias. 
 We also added binary label `whether a comment contains gender bias or not`. 
@@ -24,7 +24,7 @@ Detailed definitions are described in `guideline`.
 
 #### 2. `unlabeled`
 
-We additionally provide **2,034,837** `unlabeled` comments since `labeled` data is limited. <br>
+We additionally provide **2,033,893** `unlabeled` comments since `labeled` data is limited. <br>
 This unlabeled dataset can be used in various ways: pretraining language model, semi-supervised learning, and so on.
 
 #### 3. `news_title`
